@@ -1,11 +1,15 @@
-#Exercise 01 Lv: Moderate
+'''
+Week 04 | Control Flow
+'''
+
+#Exercise 01 
 num = int(input("Enter an integer: "))
 if num > 0:
     print(f"{num} is more than 0")
 elif num <= 0:
     print(f"{num} is less than or equal to 0")
 
-#Exercise 02 Lv: Moderate
+#Exercise 02 
 width = int(input("Enter the width in cm: "))
 length = int(input("Enter the length in cm: "))
 area = width*length
@@ -14,7 +18,7 @@ if width and length > 0:
 else:
     print("Please fill in with (+) integer")
 
-#Exercise 03 Lv: Moderate
+#Exercise 03 
 temp = float(input("Enter the temp in °F: "))
 if temp >= 32:
     c = ((temp-32)/9)*5
@@ -22,7 +26,7 @@ if temp >= 32:
 elif temp < 32:
     print("cool")
 
-#Exercise 04 Lv: Moderate
+#Exercise 04 
 gpa = float(input("Enter the score (x/100): "))
 gpa = round(gpa)
 if gpa >= 80:
@@ -42,7 +46,7 @@ elif gpa >= 50:
 elif gpa < 50:
     print("0")
 
-#Exercise 05 Lv: Advanced
+#Exercise 05 
 hr = int(input("Enter how long you stay in (hr): "))
 min =int(input("Enter how long you stay in (min): "))
 if (hr < 0) or (min < 0):
@@ -57,7 +61,7 @@ elif hr > 1:
 elif (hr == 1) or (min <= 60):
     print("free")
 
-#Exercise 06 Lv: Advanced
+#Exercise 06 
 member = input("Are you member or not (Yes/No): ")
 if member == "Yes":
     bill = float(input("Enter your total bill: "))
@@ -76,7 +80,7 @@ if member == "Yes":
 elif member == "No":
     print("No discount for you ;-;")
 
-#Exercise 07 Lv: Advanced
+#Exercise 07 
 print("Bank only have 1000THB, 500THB, and 100THB banknotes")
 withdraw = int(input("Enter the amount of withdraw: "))
 if withdraw % 100 == 0:
@@ -98,4 +102,5 @@ else:
 
 
   
+
 
