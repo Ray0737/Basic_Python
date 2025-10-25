@@ -1,3 +1,8 @@
+'''
+Week 10 | Graphical User Interface (GUI) - Part (2) Homework
+NOTED: Check the path of the attatched picture before running the code
+'''
+
 import tkinter as tk
 from tkinter import messagebox
 from tkinter import ttk
@@ -102,3 +107,4 @@ def menu_display():
 
 menu_display()
     
+
