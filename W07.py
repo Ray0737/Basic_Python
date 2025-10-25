@@ -1,3 +1,7 @@
+'''
+Week 07 | Data Structure - Tuple & Dicionary 
+'''
+
 # Exercise 00 Lv: Advanced
 thainum = ('๐','๑','๒','๓','๔','๕','๖','๗','๘','๙')
 thairead = ('ศูนย์','หนึ่ง','สอง','สาม','สี่','ห้า','หก','เจ็ด','แปด','เก้า')
@@ -55,4 +59,5 @@ menu = {'Burger':250,'Pizza':199,'Frenchfries':299}
 print(f"Menu:\n{menu}")
 choice = input("Choose 1 order from Menu: ")
 print(f"Food cost = {choice}:{menu.get(choice)} THB")
+
 
