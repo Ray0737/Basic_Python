@@ -1,5 +1,5 @@
 # 🐍 Introductory Python Programming
-*M.4 Semester 1 Coursework*
+M.4 Semester 1 Coursework
 
 This repository is dedicated to storing all **classwork and homework** completed during the first semester of my **Artificial Intelligence Engineering** major. It serves as a comprehensive record of fundamental programming concepts learned in Python.
 
