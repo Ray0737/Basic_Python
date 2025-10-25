@@ -1,4 +1,8 @@
-#Exercise 1 Lv: Moderate
+'''
+Week 05 | Control Flow (While loop & For loop)
+'''
+
+#Exercise 1
 num = 1
 while num < 20:
     if num == 19:
@@ -8,33 +12,33 @@ while num < 20:
         print(num,end = ", ")
         num=num+2
 
-#Exericse 02 Lv: Moderate
+#Exericse 02
 for i in [10,20,30,40,50,60,70]:
     print(i)
 
-#Exercise 03 Lv: Moderate
+#Exercise 03 
 for i in range(0,19,2):
     print(i)
 
-#Exercise 04 Lv: Moderate
+#Exercise 04 
 for i in range(0,101,3):
     if i%3 == 0:
         print(i)
 
-# Exercise 05 Lv: Moderate
+# Exercise 05 
 x = 9
 for i in range(9):
     print("i"*x)
     x=x-1
 
-#Exercise 06: Lv: Advanced
+#Exercise 06
 for i in range(1,10):
     print("-" * (9-i) , end="")
     for j in range(1,i+1):
         print(j,end="")
     print()  
 
-#Exercise 07: Lv: Advanced
+#Exercise 07
 line = {}
 text = input("Enter sth: ")
 
@@ -45,7 +49,7 @@ for ch in text:
 for ch in sorted(line):
     print(ch,line[ch])
 
-#Exercise 08: Lv: Advanced
+#Exercise 08
 x = input("Enter stuff (q to quit): ")
 y = []
 n=0
@@ -63,7 +67,7 @@ if n==0 and x == "q":
 else:
     print(f"{avg:.2f}")
 
-#Exercise 09: Lv: Advanced
+#Exercise 09
 h = int(input("Enter the height of the triangle: "))
 for i in range(1, h + 1):
     extspace = h - i
@@ -76,7 +80,7 @@ for i in range(1, h + 1):
         intspace = 2 * i - 3
         print(" " * extspace + "*" + " " * intspace + "*")
 
-#Exercise 10: Lv: Moderate
+#Exercise 10
 num = []
 x = input("Enter sth: ")
 y = input("Enter sth: ")
@@ -91,7 +95,7 @@ num.append(b)
 num.sort()
 print(num[2])
 
-#Exercise 11: Lv: Advanced
+#Exercise 11
 import math
 size_input = input("Enter the size of the X pattern: ")
 size = int(size_input)
@@ -112,4 +116,5 @@ else:
         line_chars = ['-'] * size
         line_chars[i] = 'X'
         line_chars[size - 1 - i] = 'X'
+
         print("".join(line_chars))
