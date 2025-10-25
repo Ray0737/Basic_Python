@@ -1,8 +1,8 @@
+'''
+Week 10 | Graphical User Interface (GUI) - Part (2)
+'''
+
 import tkinter as tk
-
-
-def printtotal():
-    print("Button 1 clicked")
 
 def menu_display():
     menu_window = tk.Tk()
@@ -35,4 +35,5 @@ def menu_display():
     menu_window.mainloop()
 
 menu_display()
+
 
