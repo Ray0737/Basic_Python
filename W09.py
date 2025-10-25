@@ -1,3 +1,7 @@
+'''
+Week 09 | Graphical User Interface (GUI) using Tkinter Module
+'''
+
 import tkinter as tk
 root = tk.Tk() # Create a window
 root.geometry('400x300+200+200') #Window size
@@ -24,5 +28,6 @@ label5.place(height=95,width=95,x=202,y=70) #Place the fourth label at specific 
 label6.place(height=95,width=95,x=305,y=70) #Place the fourth label at specific position
 label7.place(height=35,width=400,x=0,y=175) #Place the fourth label at specific position
 label8.place(height=35,width=150,x=125,y=215) #Place the fourth label at specific position
+
 
 root.mainloop() #stay open until closed by user (always at the end)
