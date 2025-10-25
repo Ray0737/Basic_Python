@@ -1,4 +1,8 @@
-#Exercise 00 Lv: Moderate
+'''
+Week 06 | Functions
+'''
+
+#Exercise 00 
 def print_name (realname1,surname1,age1):
     print(f"Hello {realname1} {surname1}, You're {age1} Years old")
 
@@ -7,7 +11,7 @@ surname = input("Enter surname: ")
 age = int(input("Enter age: "))
 print_name(realname,surname,age)
 
-#Exercise 01 Lv: Moderate
+#Exercise 01
 def bmi_calculator (w1,h1):
     h1 = h1/100
     bmi = w1/((h1)**2)
@@ -17,7 +21,7 @@ w = float(input("Enter your weight in kg: "))
 h = float(input("Enter your heiht in Cm: "))
 bmi_calculator(w,h)
 
-#Exercise 02 Lv: Moderate
+#Exercise 02
 def calculator (n1,n2,op1):
     if op1 == "+":
         return print(n1+n2)
@@ -34,7 +38,7 @@ operator = input("Choose Operator (+|-|*|/): ")
 calculator(num1,num2,operator)
 
 
-#Exercise 03 Lv: Moderate
+#Exercise 03 
 def find_max_min(nlist):
     sort1 = sorted(nlist)
     a = sort1[0]
@@ -51,3 +55,4 @@ while True:
         numlist.append(a)
 
 find_max_min(numlist)
+
